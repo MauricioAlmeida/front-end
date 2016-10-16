@@ -1,3 +1,5 @@
+
+/* default style */
 * {
 	margin: 0;
 	padding: 0;
@@ -5,11 +7,56 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* html and body element occupy all the available height */
 html, body {
-	height:100%;
+	height: 100%;
 }
 
+/* maximum width for the containers (class="container") */
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
+
+/* defines the header style (class="header") */
+.header {
+	background-color: #303030;
+	height: 60px;
+	line-height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+    /* defines the style for the logo inside the header (class="logo" inside the "header" class) */
+    .header .logo {
+        max-width: 60px;
+        vertical-align: middle;
+    }
+
+    /* defines the style for the menu inside the header (class="menu" inside the "header" class) */
+    .header .menu {
+        float: right;
+        cursor: default;
+    }
+
+    /* defines the style for the li element inside the "header" class */
+    .header .menu ul li {
+        display: inline-block;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    /* defines the style for the a links inside the "header" class. "text-decoration: none" removes the underline */
+    .header .menu ul li a {
+        color: #FFF;
+        text-decoration: none;
+        display: block;
+        padding: 0 10px;
+    }
+
+    /* defines the style when user passes the mouse over the a links inside the "header" class. */
+    .header .menu ul li a:hover {
+        background-color: #1abc9c;
+    }
