@@ -9,11 +9,11 @@
 
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="container">
                 <!-- The header contains the Opensanca logo and the menu items -->
-                <img src="images/logo-opensanca.png" alt="Opensanca Logo">
-                <nav>
+                <img class="logo" src="images/logo-opensanca.png" alt="Opensanca Logo">
+                <nav class="menu">
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">Instrutor</a></li>
@@ -28,138 +28,192 @@
         </header>
 
         <!-- HOME -->
-        <section>
+        <section class="section home">
             <div class="container">
                 <!-- The image will be supplied by CSS, as a background-image -->
-                <h1>Vem pro front!</h1>
-                <h2>Trilha Open Sanca</h2>
+                <h1 class="title-home">Vem pro front!</h1>
+                <h2 class="subtitle-home">Trilha Open Sanca</h2>
             </div>
         </section>
 
         <!-- INSTRUTOR -->
-        <section>
+        <section class="section instructor">
             <div class="container">
-                <h1>Instrutor</h1>
-                <img src="images/instructor.png" alt="Instructor picture">
-                <h2>Diego Kaimoti</h2>
-                <p>8 anos de experiência em desenvolvimento frontend e UI design.<br>
-                    Já trabalhou em agência web, empresas de consultoria e agora em uma startup.
-                </p>
-                <ul>
-                    <li><a href=""><img src="" alt="facebook"></a></li>
-                    <li><a href=""><img src="" alt="linkedin"></a></li>
-                    <li><a href=""><img src="" alt="mail"></a></li>
-                </ul>
+                <header>
+                    <h1>Instrutor</h1>
+                </header>
+                <article>
+                    <img class="image" src="images/instructor.png" alt="Diego Kaimoti">
+                    <h2>Diego Kaimoti</h2>
+                    <p>8 anos de experiência em desenvolvimento frontend e UI design.<br>
+                        Já trabalhou em agência web, empresas de consultoria e agora em uma startup.
+                    </p>
+                </article>
+                <footer>
+                    <ul class="contacts">
+                        <li><a href=""><span class="contact-images facebook"></span></a></li>
+                        <li><a href=""><span class="contact-images linkedin"></span></a></li>
+                        <li><a href=""><span class="contact-images mail"></span></a></li>
+                    </ul>
+                </footer>
             </div>
         </section>
 
         <!-- DIA 1 -->
-        <section>
+        <section class="section day1">
             <div class="container">
-                <h1>DIA 1</h1>
-                <ul>
-                    <!-- column 1 -->
-                    <li>
-                        <img src="" alt="frontenders profiles">
-                        <ul>
-                            <li>Perfis Frontend</li>
-                            <li>Mercado de trabalho</li>
-                            <li>Áreas de atuação</li>
-                        </ul>
-                    </li>
-
-                    <!-- column 2 -->
-                    <li>
-                        <img src="" alt="frontend tools">
-                        <ul>
-                            <li>Ferramentas</li>
-                            <li>Automatizadores de tarefas</li>
-                            <li>Editores</li>
-                        </ul>
-                    </li>
-
-                    <!-- column 3 -->
-                    <li>
-                        <img src="" alt="UX">
-                        <ul>
-                            <li>User Experience</li>
-                            <li>Usabilidade</li>
-                            <li>Design/Wireframes</li>
-                        </ul>
-                    </li>
-                </ul>
-                <h2>Hands On</h2>
-                <p>Teste de Usabilidade</p>
+                <header>
+                    <h1>DIA 1</h1>
+                </header>
+                <article>
+    				<div class="subject-container">
+    					<div class="subject-item">
+    						<span class="image column1"></span>
+    						<ul>
+    							<li>Perfis Frontend</li>
+    							<li>Mercado de trabalho</li>
+    							<li>Áreas de atuação</li>
+    						</ul>
+    					</div>
+    					<div class="subject-item">
+    						<span class="image column2"></span>
+    						<ul>
+    							<li>Ferramentas</li>
+    							<li>Automatizadores de tarefas</li>
+    							<li>Editores</li>
+    						</ul>
+    					</div>
+    					<div class="subject-item">
+    						<span class="image column3"></span>
+    						<ul>
+    							<li>User experience</li>
+    							<li>Usabilidade</li>
+    							<li>Design/Wireframes</li>
+    						</ul>
+    					</div>
+    				</div>
+    			</article>
+                <footer>
+                    <h2>Hands On</h2>
+                    <p>Teste de Usabilidade</p>
+                </footer>
             </div>
         </section>
 
         <!-- DIA 2 -->
-        <section>
+        <section class="section day2">
             <div class="container">
-                <h1>DIA 2</h1>
-                <img src="" alt="HTML logo">
-                <ul>
-                    <li>- Arquitetura de um projeto frontend</li>
-                    <li>- HTML</li>
-                    <li>- Semântica</li>
-                    <li>- SEO</li>
-                    <li>- Boas práticas</li>
-                    <li>- Frameworks</li>
-                    <li>- Boiler plates</li>
-                </ul>
-                <h2>Hands On</h2>
-                <p>HTML deste site!</p>
+                <header>
+                    <h1>DIA 2</h1>
+                </header>
+                <article>
+                    <span class="image"></span>
+                    <ul class="subjects">
+                        <li>- Arquitetura de um projeto frontend</li>
+                        <li>- HTML</li>
+                        <li>- Semântica</li>
+                        <li>- SEO</li>
+                        <li>- Boas práticas</li>
+                        <li>- Frameworks</li>
+                        <li>- Boiler plates</li>
+                    </ul>
+                </article>
+                <footer>
+                    <h2>Hands On</h2>
+                    <p>HTML deste site!</p>
+                </footer>
             </div>
         </section>
 
         <!-- DIA 3 -->
-        <section>
+        <section class="section day3">
             <div class="container">
-                <h1>DIA 3</h1>
-                <img src="" alt="CSS logo">
-                <ul>
-                    <li>- CSS</li>
-                    <li>- Pré-processadores</li>
-                    <li>- Boas práticas</li>
-                    <li>- Frameworks</li>
-                    <li>- Ferramentas</li>
-                </ul>
-                <h2>Hands On</h2>
-                <p>Aplicar o CSS deste site no HTML do dia 2</p>
+                <header>
+                    <h1>DIA 3</h1>
+                </header>
+                <article>
+                    <span class="image"></span>
+                    <ul class="subjects">
+                        <li>- CSS</li>
+                        <li>- Pré-processadores</li>
+                        <li>- Boas práticas</li>
+                        <li>- Frameworks</li>
+                        <li>- Ferramentas</li>
+                    </ul>
+                </article>
+                <footer>
+                    <h2>Hands On</h2>
+                    <p>Aplicar o CSS deste site no HTML do dia 2</p>
+                </footer>
             </div>
         </section>
 
         <!-- DIA 4 -->
-        <section>
+        <section class="section day4">
             <div class="container">
-                <h1>DIA 4</h1>
-                <img src="" alt="Javascript logo">
-                <ul>
-                    <li>- Javascript</li>
-                    <li>- Frameworks</li>
-                    <li>- Boas práticas</li>
-                    <li>- Testes unitários</li>
-                </ul>
-                <h2>Hands On</h2>
-                <p>HTML e CSS prontos! Vamos dar vida ao site!</p>
+                <header>
+                    <h1>DIA 4</h1>
+                </header>
+                <article>
+                    <span class="image"></span>
+                    <ul class="subjects">
+                        <li>- Javascript</li>
+                        <li>- Frameworks</li>
+                        <li>- Boas práticas</li>
+                        <li>- Testes unitários</li>
+                    </ul>
+                </article>
+                <footer>
+                    <h2>Hands On</h2>
+                    <p>HTML e CSS prontos! Vamos dar vida ao site!</p>
+                </footer>
             </div>
         </section>
 
         <!-- EU PARTICIPEI! -->
-        <section>
+        <section class="section participants">
             <div class="container">
-                <h1>Eu participei!</h1>
-                <ul>
-                    <li><img src="" alt="participant 1"></li>
-                    <li><img src="" alt="participant 2"></li>
-                    <li><img src="" alt="participant 3"></li>
-                    <li><img src="" alt="participant 4"></li>
-                    <li><img src="" alt="participant 5"></li>
-                </ul>
+                <header>
+                    <h1>Eu participei!</h1>
+                </header>
+                <article>
+                    <ul class="persons">
+                        <li>
+                            <figure>
+                                <img src="images/zombie.png" alt="participant 1">
+                                <figcaption>João das Neves</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/zombie.png" alt="participant 2">
+                                <figcaption>João das Neves</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/zombie.png" alt="participant 3">
+                                <figcaption>João das Neves</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/zombie.png" alt="participant 4">
+                                <figcaption>João das Neves</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/zombie.png" alt="participant 5">
+                                <figcaption>João das Neves</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </article>
             </div>
         </section>
 
-        <footer>
+        <footer class="footer">
             Open Sanca 2016
         </footer>
   </body>
