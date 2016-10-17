@@ -89,3 +89,36 @@ html, body {
 		text-align: right;
 		margin-right: 120px;
 	}
+
+.instructor {
+	background-color: #252525;
+}
+
+	.instructor .image {
+		box-shadow: 3px 5px 0 #1abc9c;
+		border-radius: 50%;
+	}
+
+	.instructor .contacts li {
+		display: inline-block;
+	}
+
+    .instructor .contacts-images {
+    	background-image: url('../images/images-sprites.png');
+    	background-repeat: no-repeat;
+    	width: 70px;
+    	height: 70px;
+    	display: block;
+    }
+
+    .instructor .facebook {
+    	background-position: -31px -310px;
+    }
+
+    .instructor .linkedin {
+    	background-position: -113px -310px;
+    }
+
+    .instructor .mail {
+    	background-position: -198px -310px;
+    }
