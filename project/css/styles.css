@@ -67,3 +67,25 @@ html, body {
 	text-align: center;
 	color: #0000ff;
 }
+
+.home {
+    /* loads the background image from the images folder */
+	background-image: url('../images/vem-pro-front-background.jpg');
+	background-repeat: no-repeat;
+	background-position: 40% 10%;
+}
+
+	.title-home {
+		font-size: 5.6em;
+		color: #ffffff;
+		text-shadow: 0 8px 12px #000000;
+		text-transform: uppercase;
+		padding-top: 15%;
+	}
+
+	.subtitle-home {
+		font-size: 3em;
+		color: #1abc9c;
+		text-align: right;
+		margin-right: 120px;
+	}
