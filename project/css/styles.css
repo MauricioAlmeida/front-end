@@ -122,3 +122,38 @@ html, body {
     .instructor .mail {
     	background-position: -198px -310px;
     }
+
+.day1 {
+	background-color: #1abc9c;
+}
+
+	.day1 .subject-container {
+	  	width: 100%;
+	    display: -webkit-flex;
+	    display: flex;
+	}
+
+	.day1 .subject-container .subject-item {
+		flex: 1 1 auto;
+		margin: 0 5px;
+	}
+
+	.day1 .subject-container .subject-item .image {
+		background-image: url('../images/images-sprites.png');
+		background-repeat: no-repeat;
+		width: 245px;
+		height: 245px;
+		display: block;
+	}
+
+	.day1 .subject-container .subject-item .column1 {
+		background-position: -282px -28px;
+	}
+
+	.day1 .subject-container .subject-item .column2 {
+		background-position: -560px -28px;
+	}
+
+	.day1 .subject-container .subject-item .column3 {
+		background-position: -830px -28px;
+	}
