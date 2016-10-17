@@ -178,3 +178,25 @@ html, body {
 		text-align: left;
 		font-size: 24px;
 	}
+
+.day3 {
+	background-color: #0c73b8;
+	text-align: center;
+}
+
+	.day3 .image {
+		float: left;
+		margin-left: 150px;
+		margin-right: 30px;
+		display: block;
+		width: 245px;
+		height: 245px;
+		background: url('../images/images-sprites.png');
+		background-repeat: no-repeat;
+		background-position: -1103px -27px;
+	}
+
+	.day3 .subjects {
+		text-align: left;
+		font-size: 24px;
+	}
