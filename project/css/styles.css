@@ -157,3 +157,24 @@ html, body {
 	.day1 .subject-container .subject-item .column3 {
 		background-position: -830px -28px;
 	}
+
+.day2 {
+    	background-color: #e55126;
+    }
+
+	.day2 .image {
+		float: left;
+		margin-left: 150px;
+		margin-right: 30px;
+		display: block;
+		width: 245px;
+		height: 245px;
+		background: url('../images/images-sprites.png');
+		background-repeat: no-repeat;
+		background-position: -1378px -27px;
+	}
+
+	.day2 .subjects {
+		text-align: left;
+		font-size: 24px;
+	}
